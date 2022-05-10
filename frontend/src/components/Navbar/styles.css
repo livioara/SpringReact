@@ -1,0 +1,32 @@
+
+header{
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    color: white;
+    
+
+    
+}
+
+.dsmovie-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.contato-image{
+    display: flex;
+    margin: 0px;
+}
+.contato-nome{
+    display: flex;
+    margin: 0 0 0 10px;
+    color: white;
+}
+.h1-titulo{
+    display: flex;
+    margin: 0px;
+}
