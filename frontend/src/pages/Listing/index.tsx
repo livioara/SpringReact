@@ -1,8 +1,42 @@
 import React from "react";
+import MovieCard from "../../components/MovieCard";
+import MovieScore from "../../components/MovieScore";
+import MovieStars from "../../components/MovieStars";
+import Pagination from "../../components/Pagination";
 
 function Listing() {
     return (
-        <h1>Listing</h1>
+        <>
+
+            <Pagination />
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                    <div className="col-sm-6 col-lg-4 col-xl-3 mb3">
+                        <MovieCard />
+                    </div>
+                </div>
+            </div>
+
+
+
+        </>
+
 
     );
 }
